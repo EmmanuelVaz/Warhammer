@@ -1,0 +1,60 @@
+@font-face {
+    font-family:'Caslon' ;
+    src: url(../img/caslon-antique.bolditalic.ttf);
+}
+@font-face {
+    font-family: 'CalsonReg';
+    src: url(../img/caslon-antique.regular.ttf);
+}
+body{
+    background: url(../img/unknown.png) center center fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+h1{
+    font-family: 'Caslon';
+    background: linear-gradient(248deg, rgba(38,102,172,1) 0%, rgba(17,103,194,1) 53%, rgba(0,212,255,1) 100%);
+}
+*, ::before, ::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container-onglets{
+    display: flex;
+}
+.onglets,.onglets2 {
+    display: flex;
+    cursor: pointer;
+    border: solid 2px black;
+}
+.contenu,.contenu2{
+    position:absolute ;
+    opacity: 0;
+}
+.bordure{
+    border: solid 4px black;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+}
+.Chaos{
+    margin-top: 600px;
+}
+footer{
+    margin-top: 700px;
+}
+/* Anim */
+.active {
+    background: midnightblue
+}
+.activeContenu {
+    animation: fade 0.5s forwards;
+}
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

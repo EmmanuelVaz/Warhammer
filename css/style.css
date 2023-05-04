@@ -1,0 +1,131 @@
+@font-face {
+    font-family:'Caslon' ;
+    src: url(../img/caslon-antique.bolditalic.ttf);
+}
+@font-face {
+    font-family: 'CalsonReg';
+    src: url(../img/caslon-antique.regular.ttf);
+}
+body{
+    background: url(../img/unknown.png) center center fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+.background-video{
+    width: 100%;
+}
+header .logo{
+    position: absolute;
+}
+.bg1{
+    background: url(../img/Univers.jpg) center center fixed;
+    background-size: cover;
+    padding: 150px;
+    filter:grayscale(1);
+}
+.bg2{
+    background: url(../img/Saga.jpg) center center fixed;
+    background-size: cover;
+    padding: 150px;
+    filter:grayscale(1);
+}
+.bg3{
+    background: url(../img/Cartes.jpg) center center fixed;
+    background-size: cover;
+    padding: 150px;
+    filter:grayscale(1);
+}
+.bg4{
+    background: url(../img/Races.jpg) center center fixed;
+    background-size: cover;
+    padding: 150px;
+    filter:grayscale(1);
+}
+header a{
+    text-decoration: none;
+    font-family: 'Caslon';
+    font-size: 7.5em;
+    padding: 50px;
+}
+header button:hover{
+    filter: opacity(1);
+}
+section h2{
+    font-family: 'Caslon';
+    background: linear-gradient(248deg, rgba(38,102,172,1) 0%, rgba(17,103,194,1) 53%, rgba(0,212,255,1) 100%);
+}
+.Article{
+    padding-top: 5%;
+}
+.Univers{
+    animation: slideleft 2.5s linear both;
+}
+@keyframes slideleft{
+    0% {
+     transform: translateX(-1000px);
+     opacity: 0;
+    }
+    100% {
+     transform: translateX(0);
+     opacity: 1;
+    }
+}
+.Saga{
+    animation: slideright 2.5s linear both;
+}
+@keyframes slideright{
+    0% {
+     transform: translateX(1000px);
+     opacity: 0;
+    }
+    100% {
+     transform: translateX(0);
+     opacity: 1;
+    }
+}
+.Carte{
+    animation: slideleft 2.5s linear both;
+}
+@keyframes slideleft{
+    0% {
+     transform: translateX(-1000px);
+     opacity: 0;
+    }
+    100% {
+     transform: translateX(0);
+     opacity: 1;
+    }
+}
+p,h5,h6{
+    font-family: 'CalsonReg';
+    font-size: 1.5em;
+    text-align: center;
+}
+h3{
+    font-family: 'CalsonReg';
+}
+.Saga,.Carte{
+    margin-top: 10%;
+}
+.card-img-top{
+    width: 100%;
+}
+.card-img-top3{
+    width: 85%;
+}
+.bg-cards{
+    background-color: rgba(25, 85, 112,0);
+    border: none;
+}
+.Lire{
+    margin-left: 35%;
+}
+.img2{
+    width: 72.5%;
+    margin-left: 14.5%;
+}
+.img3{
+    width: 62.5%;
+    margin-left: 19.5%;
+}
